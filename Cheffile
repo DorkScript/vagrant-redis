@@ -1,15 +1,3 @@
 #!/usr/bin/env ruby
-#^syntax detection
-
 site 'http://community.opscode.com/api/v1'
-
-# cookbook 'chef-client'
-
-# cookbook 'apache2', '>= 1.0.0'
-
-cookbook 'redis',
-   :git => 'https://github.com/DorkScript/chef-redis.git'
-
-# cookbook 'postgresql',
-#   :git => 'https://github.com/findsyou/cookbooks',
-#   :ref => 'postgresql-improvements'
+cookbook 'redis',:git => 'https://github.com/DorkScript/chef-redis.git'
