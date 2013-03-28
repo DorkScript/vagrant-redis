@@ -2,3 +2,5 @@
 /tmp
 cookbooks
 package.box
+.vagrant
+Cheffile.lock
